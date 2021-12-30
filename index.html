@@ -5,11 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <header id="header">
         <img src="https://i.pinimg.com/736x/cf/dc/2d/cfdc2d1f7b1a990fb302d133496dbe72.jpg" alt="" id="header-img">
+        <nav id="nav-bar">
+            <a class="nav-link" href="#description">Description</a>
+            <a class="nav-link" href="#video">How it sounds</a>
+            <a class="nav-link" href="#price">Pricing</a>
+        </nav>
     </header>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <p>Suscribe to our website</p>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Insert your email address">
+        <input id="submit" type="submit" value="Suscribe" class="btn" />
+    </form>
+    <div id="description">
+        <span class="material-icons">graphic_eq</span>
+        <p>Lorem ipsum dolor sit amet consectetur!</p>
+        <span class="material-icons">music_note</span>
+        <p>Lorem ipsum dolor sit amet consectetur!</p>
+        <span class="material-icons">bolt</span>
+        <p>Lorem ipsum dolor sit amet consectetur!</p>
+    </div>
+    <div id="video-div">
+        <iframe width="1309" height="481" src="https://www.youtube.com/embed/XierDLeUiYg" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen id="video"></iframe>
+    </div>
+    <section id="price">
+        <div id="14inches">
+            <div class="product-head">14 Inches</div>
+            <ul>
+                <li>Lorem ipsum</li>
+                <li>Lorem ipsum</li>
+                <li>Lorem ipsum</li>
+            </ul>
+        </div>
+        <div id="15inches">
+            <div class="product-head">15 Inches</div>
+            <ul>
+                <li>Lorem ipsum</li>
+                <li>Lorem ipsum</li>
+                <li>Lorem ipsum</li>
+            </ul>
+        </div>
+        <div id="16inches">
+            <div class="product-head">16 Inches</div>
+            <ul>
+                <li>Lorem ipsum</li>
+                <li>Lorem ipsum</li>
+                <li>Lorem ipsum</li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <a href="#header">Go to Top</a>
+        </nav>
+    </footer>
 </body>
 </html>
