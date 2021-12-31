@@ -11,7 +11,7 @@
 <body>
     <header id="header">
         <div class="logo">
-            <img src="https://www.pngrepo.com/png/7968/180/violin.png" alt="logo" id="header-img">
+            <img src="https://www.pngrepo.com/png/7968/180/violin.png" alt="logo" id="header-img" required>
         </div>
         <nav id="nav-bar">
             <a class="nav-link" href="#description">Description</a>
@@ -21,16 +21,16 @@
     </header>
     <form id="form" action="https://www.freecodecamp.com/email-submit">
         <p>Suscribe to our website</p>
-        <input type="email" id="email" placeholder="Insert your email address">
+        <input type="email" id="email" placeholder="Insert your email address"  >
         <input id="submit" type="submit" value="Suscribe" class="btn" />
     </form>
     <div id="description">
         <span class="material-icons">graphic_eq</span>
-        <p>Lorem ipsum dolor sit amet consectetur!</p>
+        <p class="icon-text">Lorem ipsum dolor sit amet consectetur!</p>
         <span class="material-icons">music_note</span>
-        <p>Lorem ipsum dolor sit amet consectetur!</p>
+        <p class="icon-text">Lorem ipsum dolor sit amet consectetur!</p>
         <span class="material-icons">bolt</span>
-        <p>Lorem ipsum dolor sit amet consectetur!</p>
+        <p class="icon-text">Lorem ipsum dolor sit amet consectetur!</p>
     </div>
     <div id="video-div">
         <iframe width="1309" height="481" src="https://www.youtube.com/embed/XierDLeUiYg" 
@@ -39,29 +39,35 @@
         allowfullscreen id="video"></iframe>
     </div>
     <section id="price">
-        <div id="14inches">
-            <div class="product-head">14 Inches</div>
+        <div id="inches">
+            <div class="product-head"><h2>14 Inches</h2></div>
+            <h3>$400</h3>
             <ul>
                 <li>Lorem ipsum</li>
                 <li>Lorem ipsum</li>
                 <li>Lorem ipsum</li>
             </ul>
+            <button>BUY NOW!</button>
         </div>
-        <div id="15inches">
-            <div class="product-head">15 Inches</div>
+        <div id="inches">
+            <div class="product-head"><h2>15 Inches</h2></div>
+            <h3>$600</h3>
             <ul>
                 <li>Lorem ipsum</li>
                 <li>Lorem ipsum</li>
                 <li>Lorem ipsum</li>
             </ul>
+            <button>BUY NOW!</button>
         </div>
-        <div id="16inches">
-            <div class="product-head">16 Inches</div>
+        <div id="inches">
+            <div class="product-head"><h2>16 Inches</h2></div>
+            <h3>$900</h3>
             <ul>
                 <li>Lorem ipsum</li>
                 <li>Lorem ipsum</li>
                 <li>Lorem ipsum</li>
             </ul>
+            <button>BUY NOW!</button>
         </div>
     </section>
     <footer>
